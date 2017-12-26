@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box !important;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f2f6fa !important;
+    position: relative;
+}
+
+a{
+	text-decoration: none !important;
+	cursor: pointer !important; 
+	outline: none !important;
+}
+
+
+
+.popularize_law_banner{
+	width: 100%;
+	height: 275px;
+	max-width: 100%;
+	position: relative;
+	z-index: -1;
+	background: url(../new_page_img/popularize_law/popularize_law_banner_bg.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 80px;
+}
+
+.popularize_law_banner_title{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.popularize_law_banner_title h1{
+	color: #fff;
+	font: 400 26px arial,sans-serif;
+	text-indent: -10px;
+}
+
+.popularize_law_banner_title p{
+	width: 360px;
+	height: 25px;
+	color: #fff;
+	text-indent: -60px;
+	font: 400 15px/25px arial,sans-serif;
+}
+
+
+
+
+
+
+.popularize_law_container{
+	width: 1200px;
+	height: auto;
+	margin: -20px auto;
+	margin-bottom: 120px;
+}
+
+
+
+.popularize_law_container_top{
+	width: 1200px;
+	height: 320px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.popularize_law_container_top_title{
+	width: 1200px;
+	height: 100px;
+	background: url(../new_page_img/consulting_service/consulting_service_container_bottom_title_bg.png) no-repeat;
+	max-width: 100%;
+	background-size: 100% 100%;
+	padding-top: 35px;
+}
+
+.popularize_law_container_top_title h2{
+	width: 150px;
+	height: 25px;
+	display: block;
+	text-indent: -10px;
+	margin: 0 auto;
+	font: 400 25px/35px arial,sans-serif;
+	color: #808080;
+}
+
+.popularize_law_container_top_list{
+	width: 1200px;
+	height: 160px;
+	padding-left: 20px;
+}
+
+.popularize_law_container_top_list ul li{
+	width: 380px;
+	height: 160px;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	transform: scale(1,1);
+	box-shadow: 0 0 0 rgba(0,0,0,0.8);
+	margin-right: 10px;
+	padding-top: 55px;
+	padding-left: 160px;
+}
+
+.popularize_law_container_top_list ul li h3{
+	color: #808080;
+	font: 400 20px/20px arial,sans-serif;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+}
+
+.popularize_law_container_top_list ul li a{
+	color: #56a3f5;
+}
+
+.popularize_law_container_top_list ul li:nth-child(1){
+	background: url(../new_page_img/popularize_law/popularize_law_container_top_list1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.popularize_law_container_top_list ul li:nth-child(2){
+	background: url(../new_page_img/popularize_law/popularize_law_container_top_list2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.popularize_law_container_top_list ul li:nth-child(3){
+	background: url(../new_page_img/popularize_law/popularize_law_container_top_list3.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.popularize_law_container_top_list ul li:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.popularize_law_container_top_list ul li:hover h3{
+	color: rgba(220,20,60,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popularize_law_container_middle{
+	width: 1200px;
+	height: 690px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.popularize_law_container_middle_title{
+	width: 1200px;
+	height: 100px;
+	background: url(../new_page_img/consulting_service/consulting_service_container_bottom_title_bg.png) no-repeat;
+	max-width: 100%;
+	background-size: 100% 100%;
+	padding-top: 35px;
+}
+
+.popularize_law_container_middle_title h2{
+	width: 110px;
+	height: 25px;
+	display: block;
+	text-indent: -10px;
+	margin: 0 auto;
+	font: 400 25px/35px arial,sans-serif;
+	color: #808080;
+}
+
+.popularize_law_container_middle_list{
+	width: 1200px;
+	height: auto;
+	padding: 20px;
+}
+
+.popularize_law_container_middle_list ul li{
+	width: 1160px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #fafafa;
+	cursor: pointer;
+	transition: all 0.5s;
+	transform: scale(1,1);
+	box-shadow: 0 0 0 rgba(0,0,0,0.8);
+}
+
+.popularize_law_container_middle_list ul li:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.popularize_law_container_middle_list_info{
+	width: 1160px;
+	height: 100px;
+}
+
+.popularize_law_container_middle_list_info:after{
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.popularize_law_container_middle_list_info_left{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: right;
+	background-color: #f0f0f0;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+
+.popularize_law_container_middle_list_info_left h5{
+	color: #808080;
+	font: 400 30px/35px arial,sans-serif;
+	margin-bottom: 0;
+}
+
+.popularize_law_container_middle_list_info_left p{
+	color: #808080;
+	font: 400 20px/35px arial,sans-serif;
+}
+
+
+.popularize_law_container_middle_list_info_right{
+	width: 1060px;
+	height: 100px;
+	text-align: left;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	float: right;
+}
+
+.popularize_law_container_middle_list_info_right h5{
+	color: #000;
+	font: 400 19px/30px arial,sans-serif;
+	margin-bottom: 10px;
+}
+
+.popularize_law_container_middle_list_info_right p{
+	color: #808080;
+	font: 400 14px/15px arial,sans-serif;
+}
+
+
+.popularize_law_container_middle_list a{
+	width: 140px;
+	height: 40px;
+	display: block;
+	border-radius: 5px;
+	border: 1px solid #56a3f5;
+	margin: 30px auto;
+	text-align: center;
+	color: #b8b8b8;
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popularize_law_container_bottom{
+	width: 1200px;
+	height: 510px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.popularize_law_container_bottom_title{
+	width: 1200px;
+	height: 100px;
+	background: url(../new_page_img/consulting_service/consulting_service_container_bottom_title_bg.png) no-repeat;
+	max-width: 100%;
+	background-size: 100% 100%;
+	padding-top: 35px;
+}
+
+.popularize_law_container_bottom_title h2{
+	width: 110px;
+	height: 25px;
+	display: block;
+	text-indent: -10px;
+	margin: 0 auto;
+	font: 400 25px/35px arial,sans-serif;
+	color: #808080;
+}
+
+.popularize_law_container_bottom_list{
+	width: 1160px;
+	height: 345px;
+	margin: 20px auto;
+}
+
+.popularize_law_container_bottom_list ul li{
+	width: 570px;
+	height: 160px;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	padding: 10px;
+	background-color: #fafafa;
+	cursor: pointer;
+	transition: all 0.5s;
+	transform: scale(1,1);
+	box-shadow: 0 0 0 rgba(0,0,0,0.8);
+}
+
+
+.popularize_law_container_bottom_list ul li:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.popularize_law_container_bottom_list ul li:after{
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.popularize_law_container_bottom_list ul li:nth-child(even){
+	margin-right: 0;
+}
+
+.popularize_law_container_bottom_list_left{
+	width: 230px;
+	height: 140px;
+	float: left;
+}
+
+.popularize_law_container_bottom_list_right{
+	width: 300px;
+	height: 140px;
+	float: right;
+	padding-top: 15px;
+}
+
+.popularize_law_container_bottom_list_right h5{
+	font: 400 18px/30px arial,sans-serif;
+	color: #808080;
+}
+
+.popularize_law_container_bottom_list_right p{
+	font: 400 15px/30px arial,sans-serif;
+	color: #808080;
+}
+
+.popularize_law_container_bottom_list_right p:nth-of-type(1){
+	font: 400 14px/20px arial,sans-serif;
+	width: 80px;
+	height: 20px;
+	display: block;
+	background-color: #c2e0ff;
+	border-radius: 15px !important;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+

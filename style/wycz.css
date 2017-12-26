@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	box-sizing: border-box !important;
+}
+body{
+	background-color: #F2F6FA;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+} 
+.clearfix {
+	zoom:1;
+}
+
+/*我要查找 start*/
+.wycz_bg{
+	width: 100%;
+	height: 265px;
+	background: url(../img/wycz_header.png) no-repeat;
+	position: relative;
+	z-index: -1;
+	background-size: 100% 100%;
+	margin-bottom: 20px;
+}
+.rmtj_container{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+.rmtj_title{
+	width: auto;
+	height: 44px;
+	font-size: 34px;
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 44px;
+}
+.rmtj_icon{
+	width: 42px;
+	height: 42px;
+	background: url(../img/jsy_01.png);
+	float: left;
+	margin-right: 10px;
+}
+.rmtj_container p{
+	line-height: 36px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:left;
+}
+/*我要查找 end*/
+/*查找全网法律服务相关信息start*/
+.find_information_head{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.find_information_head>div:first-child{
+	width: 1200px;
+	height: auto;
+	padding: 25px 35px;
+	font-size: 24px;
+	color: #B83BFF;
+	border-bottom: 2px solid #B83BFF;
+}
+.mediation_organization_mediators_main{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	border-bottom: 1px solid #E6E6E6;	
+	padding-bottom: 30px;
+	background-color: #FFFFFF;
+}
+.area_choose{
+	width: 1180px;
+	height: 36px;
+	display: block;
+	position: relative;
+	top: 15px;
+	margin-bottom: 10px;
+}
+.area_choose_title{
+	font-size: 18px;
+	color: #808080;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.county{
+	width: 658px;
+	height: 72px;
+	background: url(../img/choose_qx_bg.png);
+	margin-left: 100px;
+	display: none;
+}
+.county_main{
+	width: 657px;
+	height: 57px;
+	position: relative;
+	top: 12px;
+	padding-left: 20px;
+}
+.area_county{
+	line-height: 28px;
+	margin-top: 9px;
+}
+.area_choose_a{
+	font-size: 18px;
+	color: #808080;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.area_choose_active{
+	color: #FFFFFF;
+	background-color: #B83BFF;	
+}
+
+.area_choose_icon{
+	width: 15px;
+	height: 10px;
+	display: inline-block;
+	background: url(../img/area_icon.png);
+	cursor: pointer;
+}
+/*查找全网法律服务相关信息end*/
+/*检索模块start*/
+.retrieve_module{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+
+}
+.retrieve_module li{
+	width: 270px;
+	height: auto;
+	border: 1px solid #E6E6E6;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 6px;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	cursor: pointer;
+	display: inline-block;
+}
+.retrieve_module li:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.institutions_icon{
+	margin: 0 auto;
+	width: 94px;
+	height: 94px;
+	margin-top: 30px;
+}
+.retrieve_module li p:first-of-type{
+	font-size: 18px;
+	color: #808080;
+	text-align: center;
+	margin-top: 36px;
+	margin-bottom: 10px;
+}
+.retrieve_module li div:nth-of-type(2){
+	width: 134px;
+	height: 20px;
+	margin: 0 auto;
+	color: #808080;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.phone_icon{
+	width: 15px;
+	height: 17px;
+	background: url(../img/wycz_02.png);
+	display: inline-block;
+}
+.retrieve_module li div:nth-of-type(3){
+	width: 210px;
+	height: 20px;
+	margin: 0 auto;
+	color: #808080;
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+}
+.location_icon{
+	width: 14px;
+	height: 17px;
+	background: url(../img/wycz_03.png);
+	display: inline-block;
+}
+.consulting{
+	width: 190px;
+	height: 32px;
+	margin: 0 auto;
+	border: 1px solid #B83BFF;
+	margin-top: 20px;
+	margin-bottom: 26px;
+}
+.zxzx{
+	width: 91px;
+	height: 30px;
+	border-right: 1px solid #B83BFF;
+	float: left;
+	color: #B83BFF;
+	text-align: center;
+	line-height: 30px;
+}
+.lyzx{
+	width: 97px;
+	height: 30px;
+	float: left;
+	color: #B83BFF;
+	text-align: center;
+	line-height: 30px;
+}
+/*检索模块end*/
+.the_footer{
+	width: 1160px;
+	height: 25px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.the_footer a:first-of-type{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #808080;
+	font-size: 14px;
+	margin-left: 15px;
+}
+.the_footer a{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #808080;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.the_footer a:last-of-type{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #808080;
+	font-size: 14px;
+	margin-left: 15px;
+}

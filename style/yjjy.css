@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	list-style-type: none;
+}
+body{
+	background-color: #F2F6FA;
+}
+a{
+	text-decoration: none;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+color: #D0D0D0; 
+} 
+input:-moz-placeholder,textarea:-moz-placeholder { 
+color: #D0D0D0; 
+} 
+input::-moz-placeholder,textarea::-moz-placeholder { 
+color: #D0D0D0; 
+} 
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+color: #D0D0D0; 
+} 
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+} 
+.clearfix {
+	zoom:1;
+}
+
+/*投诉建议 start*/
+.tsjy_bg{
+	width: 100%;
+	height: 206px;
+	background: url(../img/yjjy_header.png);
+	position: relative;
+	z-index: -1;
+}
+.rmtj_container{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+.rmtj_container p:first-of-type{
+	font-size: 34px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.rmtj_container p:last-of-type{
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+/*投诉建议 end*/
+/*网页主体 start*/
+.complaints_suggestions_container{
+	width: 1200px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/*温馨提示start*/
+.warm_prompt{
+	width: 1120px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-bottom: 1px dotted #9F9F9F;
+	padding-bottom: 26px;
+}
+.warm_prompt_title{
+	font-size: 20px;
+	color: #2137be;
+	display: block;
+	padding-top: 38px;
+}
+.warm_prompt p{
+	font-size: 16px;
+	color: #808080;
+	margin-top: 16px;
+}
+/*温馨提示end*/
+/*我要提建议start*/
+.advice_user{
+	width: 1200px;
+	height: auto;
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+}
+.advice_user p{
+	font-size: 20px;
+	color: #2137be;
+	margin-top: 34px;
+	margin-left: 50px;
+}
+.advice_choose_container{
+	width: 1120px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.advice_choose{
+	width: 134px;
+	height: 44px;
+	border-radius: 6px;
+	display: inline-block;
+	border: 1px solid #E6E6E6;
+	margin-left: 8px;
+	margin-right: 8px;
+	text-align: center;
+	line-height: 42px;
+	color: #808080;
+	cursor: pointer;
+}
+.advice_choose_default{
+	border-color: #2137be;
+	color: #2137be;
+}
+/*我要提建议end*/
+/*表格表单start*/
+table{
+	margin: 0 auto;
+	width: 1120px;
+	height: auto;
+	border: 1px solid #E6E6E6;
+}
+.advice_td{
+	padding: 10px 20px;
+	text-align: center;
+	color: #606060;
+}
+table td{
+	border: 1px solid #E6E6E6;
+	font-size: 16px;
+}
+table td input{
+	width: 100%;
+	border: 0;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 16px;
+	outline: 0;
+}
+textarea{
+	border: 0;
+	width: 100%;
+	height: 160px;
+	padding: 10px;
+	font-size: 16px;
+	resize: none;
+	outline: 0;
+}
+
+/*表格表单end*/
+.submit_reset{
+	width: 470px;
+	height: 44px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.submit{
+	width: 220px;
+	height: 44px;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 42px;
+	color: #2137be;
+	float: left;
+	border-radius: 6px;
+	font-size: 18px;
+	border: 2px solid #2137be;
+}
+.submit:hover{
+	background-color: #2137be;
+	color: #FFFFFF;
+	border: 0;
+}
+.reset{
+	width: 220px;
+	height: 44px;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 42px;
+	color: #2137be;
+	float: right;
+	border-radius: 6px;
+	font-size: 18px;
+	border: 2px solid #2137be;
+}
+.reset:hover{
+	background-color: #2137be;
+	color: #FFFFFF;
+	border: 0;
+}
+/*网页主体 end*/

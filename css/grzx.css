@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+body{
+	background-color: #F2F6FA;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+} 
+.clearfix {
+	zoom:1;
+}
+/*toper start*/
+.toper_container{
+	width: 100%;
+	height: auto;
+	background: url(../img/top_con.jpg);
+}
+/*个人信息start*/
+.user_img{
+	width: 138px;
+	height: 138px;
+	background-color: #E6E6E6;
+	position: relative;
+	left: 140px;
+	top: 45px;
+}
+.user_information{
+	width: 100%;
+	height: 112px;
+	background: rgba(28,22,106,0.2);
+}
+table{
+	width: auto;
+	margin: 0 auto;
+}
+table td{
+	padding: 5px 20px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+/*个人信息end*/
+/*导航模块start*/
+.nav_module_container{
+	width: 1200px;
+	height: 140px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px 35px;
+}
+.nav_module{
+	width: 175px;
+	height: 100px;
+	border-radius: 6px;
+	margin: 0 25px;
+	padding: 10px 0;
+	float: left;
+}
+.nav_module p{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.nav_module_main{
+	width: 100%;
+	height: auto;
+	margin-top: 8px;
+	background: rgba(255,255,255,0.3);
+	padding: 4px 0;
+}
+.nav_module_main p{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.nav_module_bgc_1{
+	background-color: #8FC14C;
+}
+.nav_module_bgc_2{
+	background-color: #F9AB22;
+}
+.nav_module_bgc_3{
+	background-color: #F37060;
+}
+.nav_module_bgc_4{
+	background-color: #60C3E3;
+}
+.nav_module_bgc_5{
+	background-color: #B793E7;
+}
+/*导航模块end*/
+/*咨询记录srart*/
+.records{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	margin-bottom: 145px;
+	font-size: 18px;
+	padding: 10px;
+}
+.leave_message{
+	width: 1180px;
+	height: auto;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 10px;
+}
+.leave_message_title{
+	width: 1178px;
+	padding: 16px 20px;
+	color: #808080;
+	background-color: #EDEDED;
+}
+.leave_message_main_1{
+	width: 1180px;
+	padding: 16px 20px;
+	border-bottom: 1px dashed #E6E6E6;
+}
+.leave_message_main_2{
+	width: 1180px;
+	padding: 16px 20px;
+}
+.leave_message_time{
+	color: #B9B9B9;
+	margin-right: 30px;
+}
+.leave_message_main_head{
+	color: #808080;
+}
+.leave_message_reply{
+	float: right;
+	color: #808080;
+}
+/*咨询记录end*/

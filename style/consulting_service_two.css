@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box !important;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f2f6fa !important;
+    position: relative;
+}
+
+a{
+	text-decoration: none !important;
+	cursor: pointer !important; 
+	outline: none !important;
+}
+
+
+.consulting_service_two_banner{
+	width: 100%;
+	height: 275px;
+	max-width: 100%;
+	position: relative;
+	z-index: -1;
+	background: url(../new_page_img/consulting_service/consulting_service_bg.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 80px;
+}
+
+.consulting_service_two_banner_title{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.consulting_service_two_banner_title h1{
+	color: #fff;
+	font: 400 32px arial,sans-serif;
+	letter-spacing: 3px;
+}
+
+.consulting_service_two_banner_title p{
+	width: 305px;
+	height: 25px;
+	color: #fff;
+	font: 400 16px/25px arial,sans-serif;
+	text-indent: -5px;
+	letter-spacing: 2px;
+}
+
+
+
+
+.consulting_service_two_container{
+	width: 1200px;
+	height: 940px;
+	margin: 20px auto;
+	background-color: #f2f6fa;
+	margin-bottom: 150px;
+}
+
+
+
+
+.consulting_service_two_container_left{
+	width: 280px;
+	height: 320px;
+	float: left;
+}
+
+.consulting_service_two_container_left_list ul li{
+	width: 280px;
+	height: 49px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: #fff;
+	transition: all 0.5s;
+	cursor: pointer; 
+	color: #808080;
+}
+
+.consulting_service_two_container_left_list ul li p{
+	font: 400 16px/49px arial,sans-serif;
+	text-align: left;
+	text-indent: 25px;
+}
+
+.consulting_service_two_container_left_list ul li:hover{
+	background-color: #5f4efd;
+	color: #fff;
+}
+
+.consulting_service_two_container_left_list ul li a{
+	width: 280px;
+	height: 49px;
+	display: block;
+	text-align: left;
+	text-indent: 20px;
+	line-height: 49px;
+	color: #808080;
+}
+
+.consulting_service_two_container_left_list ul li a:hover{
+	color: #fff !important;
+}
+
+.consulting_service_two_container_left_list ul li .on {
+	color: #fff;
+	background-color: #5f4efd !important;
+	text-decoration: none;
+}
+
+
+
+.consulting_service_two_container_right{
+	width: 900px;
+	height: 940px;
+	background-color: #fff;
+	float: right;
+}
+
+
+.consulting_service_two_container_right_top{
+	width: 900px;
+	height: 210px;
+	border-bottom:1px dotted #808080;
+	position: relative;
+}
+
+.consulting_service_two_container_right_top:after{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: url(../new_page_img/container_common_right_icon.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.consulting_service_two_container_right_top h3{
+	color: #808080;
+	font: 600 20px/50px arial,sans-serif;
+	text-indent: 35px;
+	letter-spacing: 1px;
+}
+
+.consulting_service_two_container_right_top_list{
+	width: 900px;
+	height: 160px;
+	padding-left: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+.content{
+	width: 900px;
+	height: 160px;
+	padding-left: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+.consulting_service_two_container_right_top_list ul{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 160px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*.c1{
+	width: 900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 160px;
+	background-color: #F3AA00;
+	float: left;
+}
+
+.c2{
+	width: 900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 160px;
+	background-color: #fff;
+	float: left;
+}
+
+.c3{
+	width: 900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 160px;
+	background-color: firebrick;
+	float: left;
+}
+
+.c4{
+	width: 900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 160px;
+	background-color: #F3AA00;
+	float: left;
+}
+
+.c5{
+	width: 900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 160px;
+	background-color: #F3AA00;
+	float: left;
+}*/
+
+.consulting_service_two_container_right_top_list ul li{
+	width: auto;
+	height: 30px;
+	border: 1px solid #e6e6e6;
+	display: block;
+	float: left;
+	margin: 10px 40px 10px 10px;
+	font: 400 14px/30px arial,sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 6px !important;
+	color: #b9b9b9;
+	transition: all 0.5s;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.consulting_service_two_container_right_top_list ul li:hover{
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: #5f4efd;
+	box-shadow: 3px 5px 8px rgba(0,0,0,0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.consulting_service_two_container_right_middle{
+	width: 900px;
+	height: 330px;
+	position: relative;
+}
+
+.consulting_service_two_container_right_middle:after{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: url(../new_page_img/container_common_right_icon.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.consulting_service_two_container_right_middle h3{
+	color: #808080;
+	font: 600 20px/50px arial,sans-serif;
+	text-indent: 35px;
+	letter-spacing: 1px;
+}
+
+.consulting_service_two_container_right_middle_content{
+	width: 900px;
+	height: 240px;
+	padding-left: 30px;
+}
+
+.consulting_service_two_container_right_middle_content_textarea{
+	width: 840px;
+	height: 240px;
+}
+
+.consulting_service_two_container_right_middle_content_textarea textarea{
+	width: 840px;
+	height: 200px;
+	resize: none;
+	border: 0;
+	outline: none;
+	padding: 15px;
+	text-indent: 15px;
+	border-bottom: 1px solid #e6e6e6 ;
+	border-right: 1px solid #e6e6e6 ;
+	border-left: 1px solid #e6e6e6 ;
+	border-top: 1px solid #e6e6e6 ;
+}
+
+.consulting_service_two_container_right_middle_content_submit{
+	width: 840px;
+	height: 40px;
+	background-color: #fafafa;
+	border: 0;
+	border-left: 1px solid #e6e6e6 ;
+	border-bottom: 1px solid #e6e6e6 ;
+}
+
+.consulting_service_two_container_right_middle_content_submit h3{
+	color: #808080;
+	font: 400 15px/40px arial,sans-serif;
+	text-align: left;
+	text-indent: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.consulting_service_two_container_right_middle_content_submit a{
+	width: 210px;
+	height: 40px;
+	color: #fff;
+	background-color: #5f4efd;
+	text-align: center;
+	font: 400 15px/40px arial,sans-serif;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 rgba(0,0,0,0); 
+}
+
+.consulting_service_two_container_right_middle_content_submit a:hover{
+	background-color: #228B22;
+	box-shadow: 3px 5px 5px rgba(0,0,0,0.2); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.consulting_service_two_container_right_bottom{
+	width: 900px;
+	height: 330px;
+	position: relative;
+}
+
+.consulting_service_two_container_right_bottom:after{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: url(../new_page_img/container_common_right_icon.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.consulting_service_two_container_right_bottom h3{
+	color: #808080;
+	font: 600 20px/50px arial,sans-serif;
+	text-indent: 35px;
+	letter-spacing: 1px;
+}
+
+.consulting_service_two_container_right_bottom_content{
+	width: 840px;
+	height: 265px;
+	display: block;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.consulting_service_two_container_right_bottom_content ul li{
+	width: 805px;
+	height: 50px;
+	border-bottom: 1px dotted #e6e6e6;
+}
+
+.consulting_service_two_container_right_bottom_content ul li:nth-child(5){
+	border-bottom: 0;
+}
+
+.consulting_service_two_container_right_bottom_content ul li p{
+	font: 600 16px/50px arial,sans-serif;
+	text-align: center;
+	color: #808080;
+}
+
+.consulting_service_two_container_right_bottom_content_list_left{
+	width: 680px;
+	height: 50px;
+	float: left;
+}
+
+.consulting_service_two_container_right_bottom_content_list_left p{
+	font: 600 16px/50px arial,sans-serif;
+	text-align: left !important;
+	color: #808080;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	overflow:hidden;
+}

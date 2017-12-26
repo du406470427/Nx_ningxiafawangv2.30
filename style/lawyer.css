@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box !important;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f2f6fa;
+}
+
+a{
+	text-decoration: none !important;
+	cursor: pointer !important; 
+	outline: none !important;
+}
+
+
+

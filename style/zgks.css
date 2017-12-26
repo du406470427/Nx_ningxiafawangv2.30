@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	box-sizing: border-box !important;
+}
+body{
+	background-color: #F2F6FA;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+} 
+.clearfix {
+	zoom:1;
+}
+
+/*法律职业资格考试 start*/
+.flzyzgks_bg{
+	width: 100%;
+	height: 275px;
+	background: url(../img/flyz_header.png);
+	position: relative;
+	z-index: -1;
+}
+.rmtj_container{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+.rmtj_title{
+	width: auto;
+	height: 44px;
+	font-size: 34px;
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 44px;
+}
+.rmtj_icon{
+	width: 46px;
+	height: 46px;
+	background: url(../img/zgks_01.png);
+	float: left;
+	margin-right: 10px;
+}
+.rmtj_container p{
+	line-height: 36px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:left;
+}
+/*法律职业资格考试 end*/
+/*如何申请法律职业资格考试*/
+.law_methods_container{
+	width: 1200px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: -20px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+.law_methods_title{
+	width: 404px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+.law_methods_icon_left{
+	width: 60px;
+	height: 12px;
+	background: url(../img/rmtj_02.png);
+	display: inline-block;
+}
+.law_methods_icon_right{
+	width: 60px;
+	height: 12px;
+	background: url(../img/rmtj_03.png);
+	display: inline-block;
+}
+.law_methods_title span{
+	font-size: 28px;
+	color: #808080;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.law_methods_switch{
+	width: 1160px;
+	height: 44px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.law_methods_switch label{
+	background-color: #F5F5F5;
+	width: 290px;
+	height: 44px;
+	float: left;
+	border: 1px solid #E6E6E6;
+	text-align: center;
+	line-height: 42px;
+	color: #808080;
+	cursor: pointer;
+}
+
+.law_methods_main{
+	width: 1156px;
+	height: auto;
+	background-color: #FAFAFA;
+	margin: 0 auto;
+	border-radius: 6px;
+	margin-top: 20px;
+	padding-top: 20px;
+	display: none;
+}
+.law_methods_main p{
+	padding-bottom: 40px;
+	font-size: 18px;
+	color: #808080;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.law_methods_main p:last-of-type{
+	padding-bottom: 30px;
+}
+/*标签页切换 start*/
+.law_methods_container input{
+	display: none;
+}
+.law_methods_container input:nth-of-type(1):checked ~ .law_methods_mains .law_methods_main:nth-of-type(1),
+.law_methods_container input:nth-of-type(2):checked ~ .law_methods_mains .law_methods_main:nth-of-type(2),
+.law_methods_container input:nth-of-type(3):checked ~ .law_methods_mains .law_methods_main:nth-of-type(3),
+.law_methods_container input:nth-of-type(4):checked ~ .law_methods_mains .law_methods_main:nth-of-type(4){
+	display: block;
+}
+.law_methods_container input:nth-of-type(1):checked ~ .law_methods_switch label:nth-of-type(1),
+.law_methods_container input:nth-of-type(2):checked ~ .law_methods_switch label:nth-of-type(2),
+.law_methods_container input:nth-of-type(3):checked ~ .law_methods_switch label:nth-of-type(3),
+.law_methods_container input:nth-of-type(4):checked ~ .law_methods_switch label:nth-of-type(4){
+	background-color: #2AAB51;
+	float: left;
+	color: #FFFFFF;
+	border: 0;
+	line-height: 44px;
+}
+/*标签页切换 end*/
+
+/*如何申请法律职业资格考试end*/
+/*考试申请流程*/
+.law_process_container{
+	width: 1200px;
+	height: 430px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.law_process_banner{
+	width: 1146px;
+	height: 166px;
+	background: url(../img/zgks_02.png);
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.law_process_zx{
+	width: 840px;
+	height: 46px;
+	margin: 0 auto;
+	margin-top: 64px;
+}
+.law_process_zx div:first-of-type,.law_process_zx div:nth-of-type(2){
+	width: 240px;
+	height: 46px;
+	background-color: #2AAB51;
+	border-radius: 6px;
+	float: left;
+	margin-right: 60px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 46px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.law_process_zx div:last-of-type{
+	width: 240px;
+	height: 46px;
+	background-color: #2AAB51;
+	border-radius: 6px;
+	float: left;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 46px;
+	font-size: 20px;
+	cursor: pointer;
+}
+/*考试申请流程end*/
+/*最新通知和法律法规start*/
+.dxal_xgfg_container{
+	width: 1200px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 25px 20px;
+}
+/*最新通知*/
+.typical_cases{
+	width: 570px;
+	height: 350px;
+	background-color: #FAFAFA;
+	margin-right: 20px;
+	border: 1px solid #E6E6E6;
+	float: left;
+}
+.typical_cases>div{
+	width: 570px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.typical_cases>div p{
+	width: 80px;
+	font-size: 20px;
+	font-weight: 550;
+	padding: 16px 0;
+	color: #656565;
+	margin-left: 20px;
+	border-bottom: 3px solid #CCCCCC;
+}
+.typical_cases_main li{
+	width: 530px;
+	height: 42px;
+	border: 1px solid #E6E6E6;
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	color: #999999;
+	font-size: 18px;
+	line-height: 42px;
+	cursor: pointer;
+}
+.typical_cases_main li:first-of-type{
+	margin-top: 25px;
+}
+.typical_cases_main li div{
+	width: 6px;
+	height: 8px;
+	background: url(../img/rmtj_07.png);
+	margin-top: 17px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+/*法律法规start*/
+.records_laws{
+	width: 570px;
+	height: 350px;
+	background-color: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	float: left;
+}
+.records_laws>div{
+	width: 570px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.records_laws>div p{
+	width: 80px;
+	font-size: 20px;
+	font-weight: 550;
+	padding: 16px 0;
+	color: #656565;
+	margin-left: 20px;
+	border-bottom: 3px solid #CCCCCC;
+}
+
+/*最新通知和法律法规end*/
+.results_information_search{
+	width: 1200px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 25px 20px;
+	margin-bottom: 80px;
+}
+/*考试成绩查询 start*/
+.results_search{
+	width: 570px;
+	height: 350px;
+	background-color: #FAFAFA;
+	margin-right: 20px;
+	border: 1px solid #E6E6E6;
+	float: left;
+}
+.results_search>div:first-child{
+	width: 570px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.results_search div:first-child>p{
+	width: 240px;
+	font-size: 20px;
+	font-weight: 550;
+	padding: 16px 0;
+	color: #656565;
+	margin-left: 20px;
+	border-bottom: 3px solid #CCCCCC;
+}
+.results_search div:nth-of-type(2){
+	width: 530px;
+	height: 80px;
+	margin: 0 auto;
+}
+.results_search div:nth-of-type(2) p{
+	font-size: 12px;
+	color: #959595;
+	margin-bottom: 2px;
+}
+.results_search>div{
+	width: 496px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+}
+.bljdcx_main_text{
+	width: 400px;
+	height: 40px;
+	border: 1px solid #E6E6E6;
+	border-radius: 6px;
+	margin-left: 26px;
+}
+.bljdcx_main_validation{
+	width: 224px;
+	height: 40px;
+	border-radius: 6px;
+	margin-left: 42px;
+	border: 1px solid #E6E6E6;
+	display: inline-block;
+}
+.bljdcx_verification_code{
+	width: 162px;
+	height: 40px;
+	float: right;
+	background: url(../img/yzm.png);
+	cursor: pointer;
+}
+.bljdcx_button{
+	width: 400px;
+	height: 40px;
+	border-radius: 6px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #2AAB51;
+	float: right;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+/*考试成绩查询 end*/
+/*资格信息查询 start*/
+.information_search{
+	width: 570px;
+	height: 350px;
+	background-color: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	float: left;
+}
+.information_search>div:first-child{
+	width: 570px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.information_search div:first-child>p{
+	width: 200px;
+	font-size: 20px;
+	font-weight: 550;
+	padding: 16px 0;
+	color: #656565;
+	margin-left: 20px;
+	border-bottom: 3px solid #CCCCCC;
+}
+.information_search div:nth-of-type(2){
+	width: 530px;
+	height: 80px;
+	margin: 0 auto;
+}
+.information_search div:nth-of-type(2) p{
+	font-size: 12px;
+	color: #959595;
+	margin-bottom: 2px;
+}
+.information_search>div{
+	width: 496px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+}
+.bljdcx_main_1 span{
+	color: #959595;
+}
+/*资格信息查询 end*/

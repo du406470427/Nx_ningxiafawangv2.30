@@ -1,0 +1,651 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+body{
+	background-color: #F2F6FA;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+} 
+.clearfix {
+	zoom:1;
+}
+
+/*toper start*/
+.toper_container{
+	width: 100%;
+	height: 364px;
+	background: url(../img/top_con.jpg);
+}
+
+/*公证服务 start*/
+.gzfw_container{
+	width: 80%;
+	height: 130px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.gzfw_title{
+	font-size: 34px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.gzfw_main{
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:left;
+	text-indent:2em
+}
+/*公证服务 end*/
+/*公证服务模块 start*/
+.gzfw_bljd{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: -20px;
+}
+.notarization_services{
+	width: 600px;
+	height: 350px;
+	background-color: #FFFFFF;
+	float: left;
+}
+.notarization_services_head{
+	width: 600px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.notarization_services_title{
+	font-size: 26px;
+	color: #56A3F5;
+	line-height: 58px;
+	margin-left: 40px;
+	width: 104px;
+	border-bottom: 3px solid #56A3F5;
+}
+.notarization_services_main{
+	width: 520px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.notarization_services_main1{
+	width: 240px;
+	height: 110px;
+	background: url(../img/gzfw_1.png);
+	float: left;
+	margin-right: 30px;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	cursor: pointer;
+}
+.notarization_services_main1:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.notarization_services_main2{
+	width: 240px;
+	height: 110px;
+	background: url(../img/gzfw_2.png);
+	float: left;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	cursor: pointer;
+}
+.notarization_services_main2:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.notarization_services_main3{
+	width: 240px;
+	height: 110px;
+	background: url(../img/gzfw_3.png);
+	float: left;
+	margin-right: 30px;
+	margin-top: 20px;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	cursor: pointer;
+}
+.notarization_services_main3:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.notarization_services_main4{
+	width: 240px;
+	height: 110px;
+	background: url(../img/gzfw_4.png);
+	float: left;
+	margin-top: 20px;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	cursor: pointer;
+}
+.notarization_services_main4:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+/*公证服务模块 end*/
+
+/*办理进度查询*/
+.bljdcx{
+	width: 590px;
+	height: 350px;
+	background-color: #FFFFFF;
+	float: left;
+	margin-left: 10px;
+}
+.bljdcx_head{
+	width: 590px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.bljdcx_title{
+	font-size: 26px;
+	color: #56A3F5;
+	line-height: 58px;
+	margin-left: 40px;
+	width: 160px;
+	border-bottom: 3px solid #56A3F5;
+}
+.bljdcx_main{
+	width: 520px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.bljdcx_main span{
+	font-size: 18px;
+	color: #888888;
+}
+.bljdcx_main_ah{
+	margin-left: 18px;
+}
+.bljdcx_main_1{
+	width: 496px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+}
+.bljdcx_main_text{
+	width: 422px;
+	height: 40px;
+	border: 1px solid #E6E6E6;
+	border-radius: 6px;
+	margin-left: 10px;
+}
+.bljdcx_main_validation{
+	width: 244px;
+	height: 40px;
+	border-radius: 6px;
+	margin-left: 10px;
+	border: 1px solid #E6E6E6;
+	display: inline-block;
+}
+.bljdcx_verification_code{
+	width: 162px;
+	height: 40px;
+	float: right;
+	background: url(../img/yzm.png);
+	cursor: pointer;
+}
+.bljdcx_button{
+	width: 424px;
+	height: 40px;
+	border-radius: 6px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #56A3F5;
+	float: right;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+/*办理进度查询 end*/
+/*业务公告*/
+.business_disciplinary_container{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.business{
+	width: 600px;
+	height: 350px;
+	background: #FFFFFF;
+	float: left;
+}
+.business_head{
+	width: 600px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 30px;
+}
+.business_title{
+	float: left;
+	font-size: 26px;
+	color: #56A3F5;
+	line-height: 58px;
+	margin-left: 40px;
+	width: 104px;
+	border-bottom: 3px solid #56A3F5;
+}
+.business_icon{
+	width: 86px;
+	height: 26px;
+	border-radius: 10px;
+	border: 1px solid #56A3F5;
+	float: right;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 20px;
+	margin-right: 44px;
+	color: #808080;
+}
+.business_main{
+	width: 540px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 7px;
+}
+.business_main_head{
+	width: 150px;
+	height: 38px;
+	background-color: #F0F0F0;
+	display: inline-block;
+	line-height: 40px;
+	color: #666666;
+	font-size: 16px;
+	text-align: center;
+}
+.business_main span{
+	color: #999999;
+	margin-left: 10px;
+}
+/*业务公告 end*/
+/*惩戒信息 start*/
+.service_guide{
+	width: 590px;
+	height: 350px;
+	background-color: #FFFFFF;
+	float: left;
+	margin-left: 10px;
+}
+.service_guide_head{
+	width: 590px;
+	height: 59px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 30px;
+}
+.service_guide_title{
+	float: left;
+}
+.service_guide_icon{
+	width: 86px;
+	height: 26px;
+	border-radius: 10px;
+	border: 1px solid #56A3F5;
+	float: right;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 20px;
+	margin-right: 44px;
+	color: #808080;
+}
+.service_guide_main{
+	width: 540px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 7px;
+}
+.service_guide_main_icon{
+	width: 8px;
+	height: 8px;
+	margin-top: 14px;
+	margin-left: 8px;
+	margin-right: 6px;
+	background: url(../img/icon.png);
+	display: inline-block;
+}
+.service_guide_main span{
+	color: #808080;
+	line-height: 40px;
+}
+.disciplinary_information_head{
+	width: 590px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 30px;
+}
+/*惩戒信息 end*/
+/*办理指南和案例法规*/
+.blzn_alfg_container{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+/*办理指南*/
+.handle_guide{
+	width: 600px;
+	height: 400px;
+	background-color: #FFFFFF;
+	float: left;
+}
+.handle_guide_switch{
+	width: 562px;
+	height: 44px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.handle_guide_head{
+	width: 590px;
+	height: 60px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 15px;
+}
+.handle_guide_switch_1{
+	width: 186px;
+	height: 44px;
+	background: url(../img/blzn_bg.png);
+	text-align: center;
+	line-height: 36px;
+	color: #FFFFFF;
+	float: left;
+	cursor: pointer;
+}
+.handle_guide_switch_2{
+	width: 184px;
+	height: 36px;
+	text-align: center;
+	line-height: 34px;
+	color: #808080;
+	border: 1px solid #E6E6E6;
+	float: left;
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+.handle_guide_main{
+	width: 554px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 7px;
+}
+.handle_guide_main span{
+	color: #808080;
+	line-height: 40px;
+}
+/*案例法规*/
+.case_Laws{
+	width: 590px;
+	height: 400px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	margin-left: 10px;
+	float: left;
+}
+.case_Laws_swith_1{
+	width: 270px;
+	height: 44px;
+	background: url(../img/alfg_bg.png);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+}
+.case_Laws_swith_2{
+	width: 270px;
+	height: 36px;
+	color: #808080;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+	float: left;
+	background-color: #F5F5F5;
+	border: 1px solid #E6E6E6;
+	cursor: pointer;
+}
+/*办理指南和案例法规end*/
+/*公证机构公证员查询*/
+.mediation_organization{
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	cursor: pointer;
+}
+.mediation_organization:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+.mediation_organization_mediators_head{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mediation_organization_mediators_bg{
+	width: 310px;
+	height: 50px;
+	background: url(../img/tjjg.png);
+	position: relative;
+	top: 10px;
+	float: left;
+}
+.mediation_organization_mediators_bg span{
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 50px;
+	margin-left: 30px;
+}
+/*搜索*/
+.search{
+	width: 357px;
+	height: 40px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.search_text{
+	width: 306px;
+	height: 40px;
+	float: left;
+	border-bottom: 1px solid #E6E6E6;
+	border-left: 1px solid #E6E6E6;
+	border-top: 1px solid #E6E6E6;
+	border-right: none;
+}
+.search_icon{
+	width: 50px;
+	height: 40px;
+	float: left;
+	background: url(../img/search.png);
+}
+.mediation_organization_mediators_main{
+	width: 1200px;
+	height: 650px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.mediation_organization_mediators_main_1{
+	width: 1180px;
+	height: 200px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E6E6E6;	
+}
+.area_choose{
+	width: 1180px;
+	height: 36px;
+	display: block;
+	position: relative;
+	top: 15px;
+	margin-bottom: 10px;
+}
+.area_choose_title{
+	font-size: 18px;
+	color: #808080;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.county{
+	width: 658px;
+	height: 72px;
+	background: url(../img/choose_qx_bg.png);
+	margin-left: 116px;
+}
+.county_main{
+	width: 657px;
+	height: 57px;
+	position: relative;
+	top: 12px;
+	padding-left: 20px;
+}
+.area_county{
+	line-height: 28px;
+	margin-top: 9px;
+}
+.area_choose_a{
+	font-size: 18px;
+	color: #808080;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.area_choose_active{
+	color: #FFFFFF;
+	background-color: #56A3F5;	
+}
+
+.area_choose_icon{
+	width: 15px;
+	height: 10px;
+	display: inline-block;
+	background: url(../img/area_icon.png);
+	cursor: pointer;
+}
+.mediation_organization_mediators_main_2{
+	width: 1180px;
+	height: 320px;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+}
+.mediation_organization{
+	width: 270px;
+	height: 320px;
+	border: 1px solid #E6E6E6;
+	margin-left: 20px;
+	float: left;
+}
+.mediation_organization_icon{
+	width: 92px;
+	height: 92px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: url(../img/tjjg_icon.png);
+}
+.mediation_organization p{
+	font-size: 18px;
+	color: #808080;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.mediation_organization_p_icon_1{
+	width: 18px;
+	height: 18px;
+	background: url(../img/dh.png);
+	float: left;
+	margin-left: 70px;
+}
+.mediation_organization_p{
+	margin-bottom: 10px;
+}
+.mediation_organization_p span{
+	font-size: 16px;
+	color: #808080;
+}
+.mediation_organization_p_icon_2{
+	width: 18px;
+	height: 19px;
+	background:url(../img/wz.png);
+	float: left;
+	margin-left: 36px;
+}
+.consulting{
+	width: 190px;
+	height: 32px;
+	margin: 0 auto;
+	border: 1px solid #56A3F5;
+}
+.zxzx{
+	width: 91px;
+	height: 30px;
+	border-right: 1px solid #56A3F5;
+	float: left;
+	color: #56A3F5;
+	text-align: center;
+	line-height: 30px;
+}
+.lyzx{
+	width: 97px;
+	height: 30px;
+	float: left;
+	color: #56A3F5;
+	text-align: center;
+	line-height: 30px;
+}
+.mediation_organization_mediators_main_3{
+	width: 1200px;
+	height: 25px;
+	position: relative;
+	top: 90px;
+	text-align: center;
+}
+.prov{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #808080;
+	font-size: 16px;
+	margin-right: 30px;
+}
+.next{
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #808080;
+	font-size: 16px;
+}
+/*公证机构公证员查询end*/

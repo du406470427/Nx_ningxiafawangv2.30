@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	box-sizing: border-box !important;
+}
+body{
+	background-color: #F2F6FA;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+} 
+.clearfix {
+	zoom:1;
+}
+
+/*监狱服务 start*/
+.sqjz_bg{
+	width: 100%;
+	height: 206px;
+	background: url(../img/flyz_header.png);
+	position: relative;
+	z-index: -1;
+}
+.rmtj_container{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+}
+.rmtj_title{
+	width: auto;
+	height: 44px;
+	font-size: 34px;
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 44px;
+}
+.rmtj_icon{
+	width: 47px;
+	height: 47px;
+	background: url(../img/sqjz_01.png);
+	float: left;
+	margin-right: 10px;
+}
+.rmtj_container p{
+	line-height: 36px;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:left;
+}
+/*监狱服务 end*/
+
+/*最新公告和政策法规*/
+.dxal_xgfg_container{
+	width: 1200px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: -20px;
+	padding: 25px 20px;
+}
+
+/*最新公告 start*/
+.typical_cases{
+	width: 570px;
+	height: 350px;
+	background-color: #FAFAFA;
+	margin-right: 20px;
+	border: 1px solid #E6E6E6;
+	float: left;
+}
+.typical_cases>div{
+	width: 570px;
+	height: 61px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.typical_cases>div p{
+	width: 96px;
+	font-size: 24px;
+	padding: 14px 0;
+	color: #2AAB51;
+	margin-left: 20px;
+	border-bottom: 3px solid #2AAB51;
+}
+.typical_cases_main li{
+	width: 530px;
+	height: 42px;
+	border: 1px solid #E6E6E6;
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	color: #999999;
+	font-size: 18px;
+	line-height: 42px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+.typical_cases_main li:first-of-type{
+	margin-top: 25px;
+}
+.typical_cases_main li div{
+	width: 6px;
+	height: 8px;
+	background: url(../img/rmtj_07.png);
+	margin-top: 17px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+/*政策法规start*/
+.records_laws{
+	width: 570px;
+	height: 350px;
+	background-color: #FAFAFA;
+	border: 1px solid #E6E6E6;
+	float: left;
+}
+.records_laws>div{
+	width: 570px;
+	height: 61px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.records_laws>div p{
+	width: 96px;
+	font-size: 24px;
+	padding: 14px 0;
+	color: #2AAB51;
+	margin-left: 20px;
+	border-bottom: 3px solid #2AAB51;
+}
+
+/*戒毒指南和资料下载start*/
+.jdzn_zlxz_container{
+	width: 1200px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 25px 20px;
+	margin-bottom: 130px;
+}
+/*戒毒指南和资料下载end*/
+
+/*戒毒警示教育start*/
+.rmtj_service{
+	width: 1200px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding-top: 40px;
+	margin-top: 10px;
+	padding-bottom: 48px;
+	margin-bottom: 130px;
+}
+.rmtj_service_title{
+	width: 348px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.rmtj_service_title span{
+	font-size: 28px;
+	color: #808080;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.law_methods_icon_left{
+	width: 60px;
+	height: 12px;
+	background: url(../img/rmtj_02.png);
+	display: inline-block;
+}
+.law_methods_icon_right{
+	width: 60px;
+	height: 12px;
+	background: url(../img/rmtj_03.png);
+	display: inline-block;
+}
+.rmtj_service ul{
+	width: 1130px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.rmtj_service ul li{
+	width: 260px;
+	height: 170px;
+	float: left;
+	cursor: pointer;
+	background: url(../img/jdzx_01.png);
+	transition: all 0.5s;
+	box-shadow: 0 0 0 #000;
+	margin-right: 30px;
+}
+.rmtj_service ul li:hover{
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.rmtj_service ul li:last-of-type{
+	margin-right: 0px;
+}
+/*戒毒警示教育end*/
